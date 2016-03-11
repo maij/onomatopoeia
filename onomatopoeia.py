@@ -26,6 +26,7 @@ for line in urlopen(url):
 
 if not ogg_links:
    "Error : Didn't find any files"
+   exit 1
 print "Done - Now searching for the ogg_files themselves"
 
 # Create a directory for all audio files
